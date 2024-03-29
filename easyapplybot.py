@@ -559,9 +559,9 @@ class EasyApplyBot:
     def ans_question(self, question): #refactor this to an ans.yaml file
         answer = None
         if "how many" in question:
-            answer = random.randint(3, 12)
+            answer = random.randint(2, 4)
         elif "experience" in question:
-            answer = random.randint(3, 12)
+            answer = random.randint(2, 4)
         elif "sponsor" in question:
             answer = "No"
         elif 'do you ' in question:
